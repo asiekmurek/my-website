@@ -4,10 +4,17 @@ import Card from './components/Card';
 
 
 function App() {
+
+  const name = "Joanna Murawska";
+  const quoteLink = "https://inspiring-quote.asiekmurek.vercel.app/";
+  const quoteRepo = "https://github.com/asiekmurek/inspiring-quote";
+
   return (
     <>
-      <Navbar />
-      <Card />
+      <Navbar name={name}/>
+      <Card quoteLink={quoteLink}
+            quoteRepo={quoteRepo}
+      />
     </>
   );
 }
