@@ -3,12 +3,12 @@ import React from 'react';
 export default function Card({ quoteLink, quoteRepo }) {
 
     return (
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href={`${quoteLink}`} class="btn btn-primary">Inspiring Quote</a>
-                <a href={`${quoteRepo}`} class="btn btn-primary">GitHub</a>
+        <div className="card quote-card">
+            <div className="card-body">
+                <h5 className="card-title quote-title">Inspiring Quote</h5>
+                <p className="card-text quote-content">A simple page where you randomly receive an inspirational quote</p>
+                <a href={`${quoteLink}`} className="btn btn-primary quote-button">Website</a>
+                <a href={`${quoteRepo}`} className="btn btn-primary quote-button">GitHub</a>
             </div>
         </div>
     )

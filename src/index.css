@@ -1,0 +1,25 @@
+.navbar-header{
+  margin-left: 30px;
+}
+
+.quote-title{
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: sans-serif; 
+}
+
+.quote-content{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.quote-card{
+  width: 18rem;
+  margin: 30px;
+  padding: 20px;
+}
+
+.quote-button{
+  margin: 10px;
+}
